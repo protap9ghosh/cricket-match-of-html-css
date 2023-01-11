@@ -1,0 +1,77 @@
+/* .field {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid lightcoral;
+    background-image: url(../images/cricket-field.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bat {
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    transition: ease-in .2s;
+}
+
+.field:hover .bat {
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+
+.boll img {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 305px;
+    left: 432px;
+    transition: ease-in 2s;
+}
+
+.hit-position {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(59, 214, 206);
+    border-radius: 50%;
+    margin: 15px 0 0 415px;
+    cursor: pointer;
+} */
+
+h1 {
+    text-align: center;
+}
+
+.field {
+    height: 500px;
+    padding-bottom: 30px;
+    border: 1px solid lightcoral;
+    border-radius: 10px;
+    background-image: url(../images/cricket-field.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.field:hover .bat {
+    transform: rotate(-80deg);
+    transform-origin: top right;
+}
+
+.bat {
+    margin: 100px 0 0 180px;
+    transition: transform .2s ease-in;
+}
+
+.boll img {
+    width: 40px;
+    height: auto;
+    position: relative;
+    bottom: 56px;
+    left: 555px;
+    transition: transform .8s ease-out .2s;
+}
+
+.field:hover .boll img {
+    transform: translate(760px, -370px);
+}
+
+
