@@ -1,1 +1,1 @@
-# Fun Cricket Match in HTML & CSS
+# Fun Cricket Match of HTML & CSS
